@@ -1,0 +1,18 @@
+body .child> p{
+    background-color:darkcyan
+}
+.descendant p {
+    color:yellow;
+}
+.child> p {
+    color:red
+}
+.adjacent div +p{
+    color:blue
+}
+.general div ~ p {
+    color:yellowgreen
+}
+div {
+color:blue
+}

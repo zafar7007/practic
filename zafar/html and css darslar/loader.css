@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 300px;
+}
+
+.a2,
+.a3,
+.a4{
+    width: 15px;
+    height: 40px;
+    margin-left: 20px;
+    background: rgb(104, 100, 100);
+    position: relative;
+    margin-left: 20px;
+    animation: bar-loading 1s infinite ;
+    /* animation-direction: alternate; */
+}
+.a2{
+    animation-delay: -0.5s;
+}
+
+.a3{
+    animation-delay: -0.4s;
+}
+
+.a4{
+    animation-delay: -0.3s;
+}
+
+@keyframes bar-loading{
+     0%{
+        transform: scaleY(2);
+    }
+}

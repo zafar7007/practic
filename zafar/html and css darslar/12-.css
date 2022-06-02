@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    height: 2000px; 
+}
+
+.box1{
+    background-color: rgb(135, 100, 168);
+    color: red;
+    height: 50px;
+    width: 500px;
+    position: relative;
+}
+
+.box2{
+    background-color:rgb(233, 35, 35);
+    color:blue;
+    height: 80px;
+    width: 800px   
+}
+
+.box3{
+    height: 35px;
+    background-color:rgb(169, 248, 10);
+    color: aqua;
+    position: fixed;
+    width:100%
+}
+
+.box4{
+    background-color: rgb(88, 27, 27) 
+}

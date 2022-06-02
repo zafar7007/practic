@@ -1,0 +1,40 @@
+body{
+    background-color: yellowgreen
+}
+
+.box {
+    border-style:dotted;
+}
+h1{
+    display:block;
+    margin:20px
+}
+
+
+.c{
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+    background-color: brown
+    
+}
+.b{
+    float: left;
+    width: 30.3%;
+    height: 500px;
+    padding: 20px;
+    background-color: cyan;
+}
+.box10{
+    float:right;
+    padding: 20px;
+    height: 500px;
+    width: 64.3%;
+    background-color: #555;
+}
+.e{
+    text-align:center;
+    background-color: #777;
+    padding: 10px;
+
+}

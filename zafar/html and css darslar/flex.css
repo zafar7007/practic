@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    }
+
+    .flex-container {
+    display: flex;
+    }
+
+    .flex-item {
+    padding: 10px 15px;
+    background-color: #FDE8CD;
+    font-weight: bold;
+    margin: 2px;
+    }   
+    
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: stretch;
+
+    }
+    .flex-item{
+        padding: 10px 15px;
+         background-color: #FDE8CD;
+         font-weight: bold;
+         margin: 2px;
+    }

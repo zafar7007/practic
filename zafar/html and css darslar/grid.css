@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 20px;
+    background-color: rgb(66, 124, 124);
+}
+
+.grid-item{
+    background-color: aqua;
+    font-weight:bold;
+}
